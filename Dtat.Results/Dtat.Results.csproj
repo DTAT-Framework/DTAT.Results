@@ -7,9 +7,15 @@
 		<Description>This package is based on FluentResults and is useful for json results of ASP.NET (Core) actions!</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/Dariush-Tasdighi/Dtat.Results</RepositoryUrl>
+		<RepositoryUrl>https://github.com/DTAT-Framework/Dtat.Results</RepositoryUrl>
 		<PackageTags>DTAT,FluentResults,ASP.NET,Core,ASP.NET Core,Json</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>DTAT.Results</PackageId>
+		<Product>DTAT.Results</Product>
+		<Copyright>2021</Copyright>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+		<FileVersion>1.0.1.0</FileVersion>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
