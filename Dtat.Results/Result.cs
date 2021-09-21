@@ -4,6 +4,9 @@
 	{
 		public Result() : base()
 		{
+			IsSuccess = true;
+			IsFailed = false;
+
 			_errors =
 				new System.Collections.Generic.List<string>();
 
@@ -53,6 +56,9 @@
 			}
 
 			_errors.Add(message);
+
+			IsFailed = true;
+			IsSuccess = false;
 		}
 
 		public void RemoveErrorMessage(string message)
@@ -66,10 +72,19 @@
 			}
 
 			_errors.Remove(message);
+
+			if (_errors.Count == 0)
+			{
+				IsFailed = false;
+				IsSuccess = true;
+			}
 		}
 
 		public void ClearErrorMessages()
 		{
+			IsFailed = false;
+			IsSuccess = true;
+
 			_errors.Clear();
 		}
 

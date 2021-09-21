@@ -8,19 +8,28 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/DTAT-Framework/Dtat.Results</RepositoryUrl>
-		<PackageTags>DTAT,FluentResults,ASP.NET,Core,ASP.NET Core,Json</PackageTags>
+		<PackageTags>DTAT,FluentResults,ASP.NET,Core,ASP.NET Core,Json,Result</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>DTAT.Results</PackageId>
 		<Product>DTAT.Results</Product>
 		<Copyright>2021</Copyright>
-		<AssemblyVersion>1.0.1.0</AssemblyVersion>
-		<FileVersion>1.0.1.0</FileVersion>
-		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.2.0</AssemblyVersion>
+		<FileVersion>1.0.2.0</FileVersion>
+		<Version>1.0.2</Version>
+		<PackageIcon>DTAT03.png</PackageIcon>
+		<PackageIconUrl />
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="DTAT" Version="1.0.0" />
 		<PackageReference Include="FluentResults" Version="2.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\dariu\OneDrive\Pictures\DTAT\DTAT03.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
